@@ -1,53 +1,53 @@
-/*ÉÌ³Ç¿â´æÇåµ¥³ÌĞòÉè¼Æ
+/*å•†åŸåº“å­˜æ¸…å•ç¨‹åºè®¾è®¡
  *
- * ±àĞ´Ò»¸öÄ£ÄâÉÌ³Ç¿â´æÇåµ¥µÄ³ÌĞò£¬´òÓ¡³ö¿â´æÖĞÃ¿ÖÖÉÌÆ·µÄÏêÏ¸ĞÅÏ¢ÒÔ¼°ËùÓĞÉÌÆ·µÄ»ã×Ü¡£
+ * ç¼–å†™ä¸€ä¸ªæ¨¡æ‹Ÿå•†åŸåº“å­˜æ¸…å•çš„ç¨‹åºï¼Œæ‰“å°å‡ºåº“å­˜ä¸­æ¯ç§å•†å“çš„è¯¦ç»†ä¿¡æ¯ä»¥åŠæ‰€æœ‰å•†å“çš„æ±‡æ€»ã€‚
  * 
- * ÉÌÆ·µÄÏêÏ¸ĞÅÏ¢°üÀ¨£ºÆ·ÅÆĞÍºÅ¡¢³ß´ç¡¢¼Û¸ñ¡¢ÅäÖÃºÍ¿â´æÊı¡£
- * ÉÌÆ·»ã×ÜĞÅÏ¢Ó¦°üº¬×Ü¿â´æÊıºÍ¿â´æÉÌÆ·×Ü½ğ¶î¡£
+ * å•†å“çš„è¯¦ç»†ä¿¡æ¯åŒ…æ‹¬ï¼šå“ç‰Œå‹å·ã€å°ºå¯¸ã€ä»·æ ¼ã€é…ç½®å’Œåº“å­˜æ•°ã€‚
+ * å•†å“æ±‡æ€»ä¿¡æ¯åº”åŒ…å«æ€»åº“å­˜æ•°å’Œåº“å­˜å•†å“æ€»é‡‘é¢ã€‚
  * 
- * 	ÉÌÆ·ĞÅÏ¢±í£º
- * 	Æ·ÅÆĞÍºÅ			³ß´ç		¼Û¸ñ			ÅäÖÃ						¿â´æÊı
- *	MacbookAir		13.3	6988.88		i5´¦ÀíÆ÷4GBÄÚ´æ128G¹ÌÌ¬Ó²ÅÌ	5
- *	ThinkpadT450	14.0	5999.99		i5´¦ÀíÆ÷4GBÄÚ´æ500GÓ²ÅÌ		10
- *	ASUS-FL5800		15.6	4999.5		i7´¦ÀíÆ÷4GBÄÚ´æ128G¹ÌÌ¬Ó²ÅÌ	18
+ * 	å•†å“ä¿¡æ¯è¡¨ï¼š
+ * 	å“ç‰Œå‹å·			å°ºå¯¸		ä»·æ ¼			é…ç½®						åº“å­˜æ•°
+ *	MacbookAir		13.3	6988.88		i5å¤„ç†å™¨4GBå†…å­˜128Gå›ºæ€ç¡¬ç›˜	5
+ *	ThinkpadT450	14.0	5999.99		i5å¤„ç†å™¨4GBå†…å­˜500Gç¡¬ç›˜		10
+ *	ASUS-FL5800		15.6	4999.5		i7å¤„ç†å™¨4GBå†…å­˜128Gå›ºæ€ç¡¬ç›˜	10
  */
 package practice.java;
 
 public class Practice_1 {
 	public static void main(String[] args) {
 
-		// ¿ªÊ¼ÉèÖÃ¸÷¸öÉÌÆ·µÄĞÅÏ¢£¬²¢¸³Öµ¡£
+		//å¼€å§‹è®¾ç½®å„ä¸ªå•†å“çš„ä¿¡æ¯ï¼Œå¹¶èµ‹å€¼ã€‚
 
-		// Brand:µçÄÔ Size:³ß´ç Price£º¼Û¸ñ Conf£ºÅäÖÃ Inventory£º¿â´æÊı
-		final String NAME = "µçÄÔ";
-		final String SIZE = "³ß´ç";
-		final String PRICE = "¼Û¸ñ";
-		final String CONF = "ÅäÖÃ";
-		final String INVENTORY = "¿â´æÊı";
+		// Brand:ç”µè„‘		Size:å°ºå¯¸		Priceï¼šä»·æ ¼	Confï¼šé…ç½®	Inventoryï¼šåº“å­˜æ•°
+		final String NAME = "å“ç‰Œå‹å·";
+		final String SIZE = "å°ºå¯¸";
+		final String PRICE = "ä»·æ ¼";
+		final String CONF = "é…ç½®";
+		final String INVENTORY = "åº“å­˜";
 
-		// ¶¨ÒåMacbookAir
+		// å®šä¹‰MacbookAirä¿¡æ¯
 		String macBrand = "MacbookAir";
 		float macSize = 13.3f;
 		double macPrice = 6988.88;
-		String macConf = "i5´¦ÀíÆ÷4GBÄÚ´æ128G¹ÌÌ¬Ó²ÅÌ";
+		String macConf = "i5å¤„ç†å™¨4GBå†…å­˜128Gå›ºæ€ç¡¬ç›˜";
 		int macInventory = 5;
 
-		// ¶¨ÒåThinkpadT450
+		// å®šä¹‰ThinkpadT450ä¿¡æ¯
 		String thinkBrand = "ThinkpadT450";
 		float thinkSize = 14.0f;
 		double thinkPrice = 5999.99;
-		String thinkConf = "i5´¦ÀíÆ÷4GBÄÚ´æ500GÓ²ÅÌ";
+		String thinkConf = "i5å¤„ç†å™¨4GBå†…å­˜500Gç¡¬ç›˜";
 		int thinkInventory = 10;
 
-		// ¶¨ÒåASUS-FL5800
+		// å®šä¹‰ASUS-FL5800ä¿¡æ¯
 		String asusBrand = "ASUS-FL5800";
 		float asusSize = 15.6f;
 		double asusPrice = 4999.5;
-		String asusConf = "i7´¦ÀíÆ÷4GBÄÚ´æ128G¹ÌÌ¬Ó²ÅÌ";
+		String asusConf = "i7å¤„ç†å™¨4GBå†…å­˜128Gå›ºæ€ç¡¬ç›˜";
 		int asusInventory = 18;
 
-		// ¿ªÊ¼Êä³ö
-		System.out.println("--------------------ÉÌÆ·¿â´æÇåµ¥--------------------");
+		//å¼€å§‹è¾“å‡º
+		System.out.println("--------------------å•†åº—åº“å­˜æ¸…å•--------------------");
 		System.out.println(NAME + "\t\t" + SIZE + "\t" + PRICE + "\t" + CONF + "\t\t\t" + INVENTORY);
 		System.out.println(macBrand + "\t" + macSize + "\t" + macPrice + "\t" + macConf + "\t" + macInventory);
 		System.out
@@ -55,12 +55,12 @@ public class Practice_1 {
 		System.out.println(asusBrand + "\t" + asusSize + "\t" + asusPrice + "\t" + asusConf + "\t" + asusInventory);
 		System.out.println("----------------------------------------------------");
 
-		// ¼ÆËã×Ü¿â´æÊı£¨sumInventory£©ºÍ¿â´æ×Ü¼Û£¨sumPrice£©
+		//å®šä¹‰åº“å­˜æ€»æ•°ï¼ˆsumInventoryï¼‰å’Œåº“å­˜æ€»é‡‘é¢ï¼ˆsumPriceï¼‰
 		int sumInventory = macInventory + thinkInventory + asusInventory;
 		double sumPrice = macPrice * macInventory + thinkPrice * thinkInventory + asusPrice * asusInventory;
 
-		// Êä³ö×Ü¿â´æÊıºÍ¿â´æ×Ü¼Û
-		System.out.println("¿â´æ×ÜÊıÊÇ£º" + sumInventory);
-		System.out.println("¿â´æ×Ü¼ÛÊÇ£º" + sumPrice);
+		// è¾“å‡ºåº“å­˜æ€»æ•°å’Œåº“å­˜æ€»é‡‘é¢
+		System.out.println("åº“å­˜æ€»æ•°æ˜¯ï¼š" + sumInventory);
+		System.out.println("åº“å­˜æ€»é‡‘é¢æ˜¯ï¼š" + sumPrice);
 	}
 }
