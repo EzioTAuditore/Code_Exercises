@@ -1,0 +1,23 @@
+#Code_Exercises仓库介绍文档
+
+#接入托管网站
+#同时接入本地，码云，Github三个平台，因此只用作单向上传。
+#Gogs
+172.16.0.2:3000
+
+#Gitee
+gitee.com
+
+#GitHub
+github.com
+
+#使用管理工具
+#命令行工具
+Windows PowerShell	
+
+#GUI管理工具
+Github Desktop
+
+#目录介绍
+Java	Java代码存放
+Python	Python代码存放
