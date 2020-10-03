@@ -1,0 +1,5 @@
+print("学Python，来黑马传智播客程序员")
+print("学Python，来黑马传智播客程序员")
+print("学Python，来黑马传智播客程序员")
+print("学Python，来黑马传智播客程序员")
+print("学Python，来黑马传智播客程序员")
